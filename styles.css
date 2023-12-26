@@ -43,7 +43,7 @@ img {
 }
 
 .upper-section {
-  height: 250px;
+  height: 280px;
   background-color: #6943ff;
   display: flex;
   flex-direction: column;
@@ -53,8 +53,9 @@ img {
 }
 
 h1 {
-  font-size: 1.75rem;
+  font-size: 1.6rem;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 #input-el {
@@ -74,10 +75,16 @@ h1 {
   font-size: 1rem;
   border-radius: 5px;
   color: #6943ff;
+  border: none;
+}
+
+#convert-btn:hover {
+  cursor: pointer;
+  background-color: rgb(242, 242, 221);
 }
 
 .lower-section {
-  height: 450px;
+  height: 420px;
   background-color: #1f2937;
   text-align: center;
   display: flex;
